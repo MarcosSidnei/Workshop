@@ -292,3 +292,50 @@ footer {
     padding: 1.5rem;
   }
 }
+
+/* Container do formulário */
+form {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Inputs e textarea */
+form .form-control {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  font-size: 16px;
+  transition: 0.3s ease;
+}
+
+form .form-control:focus {
+  border-color: #c8921d; /* dourado */
+  box-shadow: 0 0 6px rgba(200, 146, 29, 0.4);
+  outline: none;
+}
+
+/* Botão */
+form button {
+  background: #222; /* preto */
+  color: #fff;
+  font-weight: 600;
+  padding: 12px;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  width: 100%;
+}
+
+form button:hover {
+  background: #c8921d; /* dourado */
+  color: #fff;
+}
+
